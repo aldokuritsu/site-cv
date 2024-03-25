@@ -4,7 +4,7 @@
 }
 
 .font-light {
-  color: hsl(198, 48%, 95%);
+  color: hsl(200, 100%, 98%);
 }
 
 .title {
@@ -12,7 +12,7 @@
 }
 
 .subtitle {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .title-underline {
@@ -37,7 +37,7 @@ html {
 }
 
 .mobile-menu {
-  color: hsl(197, 33%, 81%);
+  color: hsl(200, 100%, 98%);
   animation: menuAnimation 300ms ease;
 }
 
@@ -52,7 +52,7 @@ figure span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: hsl(197, 33%, 81%);
+  color: hsl(200, 100%, 98%);
   display: none;
   text-align: center;
   transition: all ease 300ms;
@@ -112,16 +112,16 @@ figure:hover span {
   background-color: hsl(24, 14%, 7%);
 }
 
+.light-gray-bg {
+  background-color: hsl(200, 100%, 98%);
+}
+
 .level-item {
   padding: 1em 0;
 }
 
 .is-large {
   padding: 10rem 0;
-}
-
-::-moz-selection {
-  background-color: hsl(201, 72%, 31%);
 }
 
 ::selection {
@@ -135,4 +135,6 @@ figure:hover span {
   100% {
     margin-top: 0;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

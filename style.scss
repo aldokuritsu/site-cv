@@ -19,7 +19,7 @@ $light-color      : hsl(200, 100%, 98%);
 }
 
 .subtitle {
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .title-underline {
@@ -130,6 +130,10 @@ figure:hover {
 
 .late-gray-bg {
     background-color: $dark-color;
+}
+
+.light-gray-bg {
+    background-color: $light-color;
 }
 
 .level-item {
